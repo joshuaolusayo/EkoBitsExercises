@@ -1,0 +1,434 @@
+/* My website */
+
+@media only screen and (min-width: 768px) {
+
+	.homeHeader {
+		background-image: url("images/3.jpg");
+	}
+
+	.topnav {
+		padding: 10px 30px;
+		background-color: rgba(0, 0, 0, 0.9);
+	}
+
+	.brandname a {
+		font-size: 15px;
+		letter-spacing: 1px;
+		transition: color 1s;
+	}
+
+	.brandname:hover a {
+		color: #fff;
+	}
+
+	.brandname img {
+		width: 30px;
+		height: 30px;
+		padding: 1px;
+		margin-right: 5px;
+		border: solid 2px #ddd;
+	}
+
+	.ul li {
+		padding: 0 10px;
+	}
+
+	.topnav .ul a {
+		font-size: 16px;
+		padding: 10px;
+	}
+
+	.topnav .ul a:hover {
+		text-decoration: underline;
+	}
+
+	.header2 {
+		max-width: 50%;
+		letter-spacing: 1px;
+		font-size: 30px;
+	}
+
+	.header2 > span {
+		float: right;
+	}
+
+	.content {
+		width: 70%;
+		margin: 150px auto;
+		padding: 50px;
+		display: flex;
+		flex-flow: row nowrap;
+		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
+	}
+
+	.content .meet {
+		line-height: 70px;
+		font-size: 45px;
+		letter-spacing: 6px;
+		display: flex;
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		align-items: center;
+	}
+
+	.content .desc {
+		padding: 0 30px;
+		line-height: 35px;
+		font-size: 20px;
+		-webkit-flex: 2;
+		-ms-flex: 2;
+		flex: 2;
+	}
+
+	.desc a:hover {
+		text-decoration: underline;
+	}
+
+	.hobbies {
+		background: url("images/5.jpg");
+		padding: 12% 10%;
+		width: 80%;
+		background-attachment: fixed;
+		position: relative;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.hobbies h1 {
+		position: absolute;
+		width: 90%;
+		top: 6%;
+		left: 5%;
+		letter-spacing: 2px;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.hby {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+		flex-basis: 45%;
+		margin: 20px;
+	}
+
+	.hby img {
+		height: 130px;
+		width: 130px;
+		padding: 2px;
+		margin: 5px;
+		border: solid 5px #9e9e8c;
+		display: block;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+	}
+
+	.hby img:hover {
+		transform: scale(1.05);
+	}
+
+	.hby h3, h5 {
+		line-height: 25px;
+	}
+
+	.hby h5 {
+		display: block;font-family: arial;
+		line-height: 20px;
+		margin: 0;
+	}
+
+	.hby p {
+		margin: 0px;
+		text-align: justify;
+		color: #795548;
+		line-height: 25px;
+		font-size: 14px;
+	}
+
+	.foot {
+		width: 70%;
+		margin: 0 auto 10%;
+		padding: 50px;
+		box-shadow: 1px 3px 10px #fff;
+	}
+
+	.socialink {
+		font-size: 25px;
+		box-shadow: 2px 7px 25px gray;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+		padding: 20px;
+	}
+
+	footer div a {
+		padding: 20px 20px;
+	}
+
+	footer div a:hover {
+		-webkit-border-radius: 10px 0;
+		-moz-border-radius: 10px 0;
+		border-radius: 10px 0;
+		box-shadow: 0px 2px 5px #fff;
+	}
+
+	.lego {
+		font-size: 50px;
+		text-shadow: 0px 3px 0px #e5be35;
+	}
+
+	footer p {
+		padding: 20px 0;
+		letter-spacing: 1px;
+	}
+
+	/* 
+	----------------------------------- ABOUT US PAGE ------------------------------------
+	*/
+
+	.aboutHeader {
+		background-image: url("images/02.jpg");
+	}
+
+	.headerBanner, .contBanner {
+		font-size: 25px;
+		letter-spacing: 2px;
+		line-height: 50px;
+	}
+
+	.headerBanner p, .contBanner p {
+		padding: 20px;
+		-webkit-border-radius: 20px 0;
+		-moz-border-radius: 20px 0;
+		border-radius: 20px 0;
+	}
+
+	.aboutMe {
+		padding: 10%;
+	}
+
+	.abtContent {
+		width: 80%;
+		padding: 7% 5%;
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		border-radius: 30px;
+		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
+	}
+
+	.abtContent h1, .abtMoments h1 {
+		font-size: 60px;
+		text-shadow: 1px 3px 0px #000;
+	}
+
+	.abtContent p {
+		font-size: 20px;
+		line-height: 40px;
+		text-indent: 5%;
+	}
+
+	.abtContent p:first-letter {
+		font-size: 150%;
+	}
+
+	.abtMoments {
+		padding: 10%;
+	}
+
+	.abtPicGallery {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		padding-top: 5%;
+	}
+
+	.abtDivImg {
+		margin: 10px;
+		width: 300px;
+		box-shadow: 0 1px 7px 5px rgba(0, 0, 0, 0.5);
+		transition: box-shadow 0.3s ease-in;
+	}
+
+	.abtDivImg:hover {
+		box-shadow: 0 1px 7px 10px rgba(0, 0, 0, 0.5);
+	}
+
+	.abtDivImg img {
+		width: 300px;
+		height: 300px;
+		transition: 0.3s;
+	}
+
+	.abtDivImg img:hover {
+		opacity: 0.7;
+	}
+
+	.abtDivImg .desc {
+		padding: 20px;
+	}
+
+	/*
+----------------------------------------- My works ---------------------------------------
+	*/
+	.wkBanner {
+		background: url(images/00.jpg);
+		width: 100%;
+		height: 400px;
+		background-attachment: fixed;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+	}
+
+	.wkBanner p {
+		background: #ffeb3b;
+		padding: 20px;
+		-webkit-border-radius: 15px 0;
+		-moz-border-radius: 15px 0;
+		border-radius: 15px 0;
+		color: #000;
+		font-family: corbel;
+		font-size: 20px;
+		letter-spacing: 1px;
+		box-shadow: 0 1px 3px 2px;
+	}
+
+	.wkDone {
+		width: 80%;
+		margin: 0px auto 0;
+		padding: 50px;
+		background: rgba(125, 125, 125, 0.1);
+		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
+	}
+
+	.wd {
+		font-size: 35px;
+		color: #ff3b3b;
+		margin: 20px;
+		font-family: corbel;
+		letter-spacing: 1px;
+		text-decoration: underline;
+	}
+
+	.ln {
+		margin: 50px 0;
+	}
+
+	.wkD {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: flex-start;
+		justify-content: space-around;
+	}
+
+	.wkDiv {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		justify-content: space-around;
+		flex-basis: 20%;
+		margin: 20px;
+		background: #ffeb3b;
+		padding: 20px 0px 0;
+		border-radius: 25px 0 0;
+		box-shadow: 0px 2px 3px 5px #000;
+	}
+
+	.wkDiv img {
+		max-width: 200px;
+		height: auto;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		padding: 5px;
+	}
+
+	.wkDiv p {
+		background: #ff3b3b;
+		margin: 10px 0 0;
+		width: 100%;
+		text-align: center;
+		padding: 10px 0;
+		color: #fff;
+	}
+
+
+
+	/*
+	------------------------------------ CONTACT CSS ------------------------------------- 
+
+	*/
+	.contactHeader {
+		background: url("images/24.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.contBanner p {
+		border: solid 1px #7c7c7c;
+		box-shadow: 0 0px 3px 0px rgba(255, 235, 59, 1);
+		margin: 0;
+	}
+
+	.contMessage {
+		padding: 20%;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+	}
+
+	.contsidePic {
+		display: block;
+		height: auto;
+		width: auto;
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+	}
+
+	.contMessage form {
+		padding: 20px 50px;
+		box-shadow: 0px 0px 5px 5px #ddd;
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+	}
+
+	.contJosh {
+		margin-bottom: 50px;
+	}
+
+	.contJosh h1 {
+		font-size: 40px;
+	}
+
+	.contMessage form input, .contMessage form textarea {
+		padding: 5px;
+		margin: 10px 0;
+		box-sizing: border-box;
+		font-size: 16px;
+	}
+
+	.contMessage form textarea {
+		font-size: 16px;
+	}
+
+	.contMessage form button {
+		width: 90px;
+		padding: 8px;
+		-webkit-border-radius: 30px;
+		border-radius: 30px;
+		margin: 10px auto;
+		font-size: 14px;
+	}
+
+	.contMessage form button:hover {
+		box-shadow: 0px 1px 5px #000;
+	}
+}

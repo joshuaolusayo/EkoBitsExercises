@@ -1,0 +1,41 @@
+.col-4 {
+    width: 33%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media screen and (min-width: 765px) and (max-width: 960px) {
+    .col-4 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .col-4 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .col-6 {
+        width: 100%;
+    }
+}
+
+.grid {
+    height: 250px;
+}
+
+.grid:nth-child(1) {
+    background: purple;
+}
+
+.grid:nth-child(2) {
+    background: chocolate;
+}
