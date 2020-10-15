@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+header div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1200px;
+    margin: 10px auto 0;
+}
+
+header div a {
+    margin-right: 10px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+header div img {
+    border-radius: 50%;
+}
+
+div.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+div.body > section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    justify-content: center;
+    align-items: center;
+}
+
+div.body img {
+    object-fit: cover;
+    max-width: 280px;
+    height: auto;
+}
+
+div.body input {
+    padding: 15px;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 600px) {
+    div.body input {
+        max-width: 300px;
+    }
+}
+
+div.body input:focus {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border: none;
+    outline: none;
+}
+
+div.body input:focus {
+    border: none;
+}
+
+.links a {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin: 5px;
+    background-color: #F5F5F5;
+    color: #5F6368;
+    text-decoration: none;
+}
+
+p a {
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #000;
+    border: 1px solid #ddd;
+}
+
+footer {
+    width: 100%;
+    background: #F5F5F5;
+    color: #5F6368;
+}
+
+footer div.nig,
+footer div.link {
+    padding: 15px 30px;
+}
+
+footer div.nig,
+footer div.link {
+    border-top: 1px solid #ddd;
+}
+
+footer .link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    footer .link {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+footer .link a {
+    color: #5F6368;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .link a:first-child {
+    margin-left: 0;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
